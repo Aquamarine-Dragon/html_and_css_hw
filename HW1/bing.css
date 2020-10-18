@@ -1,0 +1,78 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 500px 300px;
+    margin-left: calc((100% - 815px) / 2);
+}
+
+
+.header {
+    grid-column: 1/span 2;
+    grid-row: 1;
+    height: 90px;
+    margin-top: 10px;
+    line-height: 50px;
+    color: #cc0000;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-big-font{
+    font-size: 36pt;
+    float: left;
+    font-family: sans-serif;
+}
+.header-small-font {
+    font-size: 12pt;
+    font-weight: bold;
+    width: 14ex;
+    text-align: left;
+}
+.content {
+    grid-column: 1;
+    grid-row: 2;
+    margin-right: 15px;
+}
+
+.small-header{
+    font-weight: bold;
+    font-family: sans-serif;
+    color:black;
+    font-size: 18pt;
+    float:left;
+    margin-bottom: 15px;
+}
+.left-paragraph{
+    padding-top: 26px;
+}
+.left-img img {
+    float: left;
+    width: 70%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.calender {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.calender-title {
+    font-weight: bold;
+    font-size: 14pt;
+    padding-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+.thin-line {
+    background-color: black;
+    height: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.calender-words {
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+

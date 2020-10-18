@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configure Your GT Super Sportscar</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="carOptions.js" defer></script>
+    <link type="text/css" rel="stylesheet"  href="carOptions.css"/>
+
+</head>
+<body>
+<form id="cars">
+<div class="wrapper">
+    <div class="header">
+        Configure Your GT Super Sportscar
+    </div>
+    <div class="configuration">
+        <div class="item-box">
+            <div class="grey-box">
+                <div class="grey-box-line">
+                    Configuration
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio" name="carSelect" id="Manual" checked="checked"/>
+                        GT Manual</label>
+                </div>
+                <div class="price">
+                    $17,790.00
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio" name="carSelect" id="Automatic"/>
+                        GT Automatic</label>
+                </div>
+                <div class="price">
+                    $18,590.00
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio"  name="carSelect" id="GT-S Manual"/>
+                        GT-S Manual</label>
+                </div>
+                <div class="price">
+                    $22,455.00
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio" name="carSelect" id="Sportshift"/>
+                        GT-S Sportshift</label>
+                </div>
+                <div class="price">
+                    $23,155.00
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="choose-color">
+        <div class="item-box">
+            <div class="grey-box">
+                <div class="grey-box-line">
+                Choose A Color
+                </div>
+            </div>
+
+            <div class="color-box">
+                　　<ul>
+                　　　　<li class="active">Red</li>
+                　　　　<li>Blue</li>
+                　　　　<li>Silver</li>
+                　　　　<li>White</li>
+                　　</ul>
+                <div class="content">
+                    　　<div class="active">
+                    　　　　<div class="car-photo"><img src="red.jpg" alt="Red Vehicle Photo"/></div>
+                    　　</div>
+                    <div>
+                        　<div class="car-photo"><img src="blue.jpg" alt="Blue Vehicle Photo"/></div>
+                    </div>
+                    　　<div><div class="car-photo"><img src="silver.jpg" alt="Silver Vehicle Photo"/></div></div>
+                    　　　　<div><div class="car-photo"><img src="white.jpg" alt="White Vehicle Photo"/></div></div>
+                    　　　　<div><div class="car-photo"><img src="black.jpg" alt="Black Vehicle Photo"/></div></div>
+                    　　</div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="factory-option">
+        <div class="item-box">
+            <div class="grey-box">
+                <div class="grey-box-line">
+                    Factory Options
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio" name="factorySelect" id="Combo1" checked="checked"/>
+                        Option Combo #1</label>
+                </div>
+                <div class="price">
+                    $1235.00
+                </div>
+            </div>
+            <ul>
+                <li>Power Windows, Doors, Cruise Control</li>
+            </ul>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio" name="factorySelect" id="Combo2"/>
+                        Option Combo #2</label>
+                </div>
+                <div class="price">
+                    $3354.00
+                </div>
+            </div>
+            <ul>
+                <li>Rear Spoiler and Fog Lamps</li>
+                <li>Keyless Entry</li>
+                <li>Power Tilt & Slide Moonroof</li>
+                <li>Power Windows, Doors, Cruise Control</li>
+            </ul>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="radio" name="factorySelect" id="noCombo"/>
+                        No Combo</label>
+                </div>
+                <div class="price">
+                    $0
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="dealer-option">
+        <div class="item-box">
+            <div class="grey-box">
+                <div class="grey-box-line">
+                    Dealer Options
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="checkbox" name="dealerSelect" id="Stereo" checked="checked"/>
+                        Upgraded Stereo System</label>
+                </div>
+                <div class="price">
+                    $550.00
+                </div>
+            </div>
+
+
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="checkbox" name="dealerSelect" id="Security"/>
+                        VIP Security System</label>
+                </div>
+                <div class="price">
+                    $399.00
+                </div>
+            </div>
+            <div class="box-line">
+                <div class="checkbox">
+                    <label><input type="checkbox" name="dealerSelect" id="Dimming"/>
+                        Auto-Dimming Mirror</label>
+                </div>
+                <div class="price">
+                    $295.00
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="total-price">
+        <div class="item-box">
+            <div class="grey-box">
+                <div class="grey-box-line">
+                    Total Price
+                </div>
+            </div>
+            <div class="calculate-price">
+                <label>
+                    <input type="text" size="15" name="to" id="total"/>
+                </label>
+                <input type="button" value="Total" id="totalButton" />
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+

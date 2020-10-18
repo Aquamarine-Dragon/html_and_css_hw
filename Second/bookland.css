@@ -1,0 +1,81 @@
+body{
+    background-color: lightskyblue;
+
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 70px;
+
+}
+
+.header{
+    font-size: 100px;
+    text-align: center;
+    font-family: "Apple Chancery", sans-serif;
+}
+
+form{
+}
+.line{
+    font-family: Helvetica, sans-serif;
+    display: inline;
+}
+.line input{
+    width: 150px;
+    background-color: lightskyblue;
+    border:none;
+    outline:none;
+    border-bottom: black solid 2px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.line label{
+    float: right;
+}
+.button-line{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.button-line input {
+    border: dodgerblue solid 2px;
+    background-color: aquamarine;
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+textarea {
+    background-color: lightskyblue;
+    outline: none;
+    border: darkblue dashed 2px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

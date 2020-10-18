@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Loading Example</title>
+    <!--<script>-->
+        <!--alert("Hello Everyone!");-->
+    <!-- </script>-->
+
+</head>
+<body>
+
+<div>
+    <input type="button" value="Say hello" id="hellobutton" />
+    <input type="button"/>
+</div>
+<script>
+    document.getElementById("hellobutton").addEventListener(
+        "click",
+        () => alert('Hello Everyone')
+    );
+    function printToConsole() {
+        console.log("print to console");
+    }
+
+    document.getElementById("consoleButton").addEventListener("click", printToConsole, false);
+
+    function changeTitle() {
+        document.title = "Amazing!";
+    }
+
+    document.getElementById("titleButton").addEventListener("click", changeTitle, false);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

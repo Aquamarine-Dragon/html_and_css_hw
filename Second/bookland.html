@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Search</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bookland.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="bookland.css"/>
+</head>
+<body>
+<form id="books">
+    <div class="wrapper">
+        <div class="header">
+            Bookland
+        </div>
+            <div class="line">
+                Author Name: <label>
+                <input type="text" id="author"/>
+            </label></div>
+            <br/>
+            <div class="line">
+                Book Title: <label>
+                <input type="text" id="title"/>
+            </label></div>
+            <br/>
+            <div class="button-line">
+                <input type="button" value="Find Book" id="findButton"/>
+                <input type="button" value="Clear Info" id="clearButton"></div>
+            <textarea rows="13" cols="19" id="infoInput">
+    </textarea>
+    </div>
+
+</form>
+
+</body>
+</html>

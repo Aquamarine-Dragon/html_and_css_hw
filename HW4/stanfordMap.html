@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stanford Map</title>
+    <link type="text/css" rel="stylesheet" href="stanfordMap.css"/>
+    <script src="stanfordMap.js" defer></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+</head>
+<body>
+<div id="map-frame">
+    <div id="map-div">
+        <img id="map" src="map-s.gif" alt="map"/>
+    </div>
+</div>
+<table id="zoom-btn">
+    <tr>
+        <th>
+            <button id="zoom-in" class="btn">+</button>
+        </th>
+        <th>
+            <button id="zoom-out" class="btn">-</button>
+        </th>
+    </tr>
+</table>
+<table id="move-btn">
+
+    <tr>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+        <th>
+            <button id="scroll-up" class="btn" onclick="sUp()">⇧</button>
+        </th>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button class="btn" id="scroll-left" onclick="sLeft()">⇦</button>
+        </th>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+        <th>
+            <button class="btn" id="scroll-right" onclick="sRight()">⇨</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+        <th>
+            <button class="btn" id="scroll-down" onclick="sDown()">⇩</button>
+        </th>
+        <th>
+            <button class="empty-btn"></button>
+        </th>
+    </tr>
+
+
+</table>
+
+
+</body>
+</html>

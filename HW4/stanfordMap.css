@@ -1,0 +1,76 @@
+#map-frame {
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    right: 180px;
+    bottom: 30px;
+    border: 20px solid darkgrey;
+}
+
+#map {
+
+}
+
+#map-div {
+    position: absolute;
+}
+
+#move-btn{
+    position: absolute;
+    right: 40px;
+    top: 80px;
+}
+
+#zoom-btn{
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+.btn {
+    background-color: lightgrey;
+    color: black;
+    font-size: 18px;
+    height: 25px;
+    width: 34px;
+    cursor: pointer;
+    border-bottom: black solid 1px;
+    border-right: black solid 1px;
+    outline: none;
+
+}
+.btn:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+.empty-btn{
+    background-color: white;
+    border: none;
+}
+.small-empty-btn{
+    width: 17px;
+    height: 25px;
+    background-color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

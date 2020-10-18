@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stanford Data</title>
+    <style type="text/css">
+        p {
+            font-style: italic;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(9, 70px);
+            width: 1000px;
+            border-collapse: collapse;
+        }
+        .oddletter {
+            background-color: #EEE;
+            display: flex;
+            justify-content: left;
+            padding: 20px;
+            font-size: 20px;
+            color: black;
+            font-family: sans-serif;
+            border: 2px solid black;
+        }
+        .letter{
+            display: flex;
+            justify-content: left;
+            padding: 20px;
+            font-size: 20px;
+            color: black;
+            font-family: sans-serif;
+            border: 2px solid black;
+        }
+        .firstLine {
+            background-color: black;
+            display: flex;
+            justify-content: left;
+            padding: 20px;
+            font-size: 20px;
+            color: white;
+            font-family: sans-serif;
+            border-right: 2px solid white;
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>
+    Geographic Origin of Stanford Undegrads
+</h1>
+<div class="wrapper">
+    <div class="firstLine">
+        Geographic Origin
+    </div>
+    <div class="firstLine" style="border-left: 2px solid white; border-right: 2px solid black">
+        Number of students
+    </div>
+    <div class="letter">
+        California
+    </div>
+    <div class="letter">
+        <tr>2943</tr>
+    </div>
+    <div class="oddletter">
+        Other US
+    </div>
+    <div class="oddletter">
+        3477
+    </div>
+    <div class="letter">
+        Asia
+    </div>
+    <div class="letter">
+        264
+    </div>
+    <div class="oddletter">
+       The Americas
+    </div>
+    <div class="oddletter">
+        83
+    </div>
+    <div class="letter">
+        Europe
+    </div>
+    <div class="letter">
+        69
+    </div>
+    <div class="oddletter">
+        Africa
+    </div>
+    <div class="oddletter">
+        44
+    </div>
+    <div class="letter">
+        Middle East and North Africa
+    </div>
+    <div class="letter">
+        22
+    </div>
+    <div class="oddletter">
+        Pacific Basin
+    </div>
+    <div class="oddletter">
+        6
+    </div>
+
+</div>
+
+<p>Source: Stanford Facts Websites</p>
+</body>
+</html>
